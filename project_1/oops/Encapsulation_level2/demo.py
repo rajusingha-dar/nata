@@ -35,8 +35,8 @@ bank = Bank("Kolkata Central Bank")
 raju_savings = bank.open_account("SAV-001", "Raju", "SAVINGS", opening_balance=5000)
 priya_current = bank.open_account("CUR-001", "Priya", "CURRENT", opening_balance=1000, overdraft_limit=2000)
 
-print(raju_savings)
-print(priya_current)
+print("raju_savings:------------", raju_savings)
+print("priya_current:-----------", priya_current)
 print("Total accounts created across the whole program:", BankAccount.total_accounts_created)
 
 
